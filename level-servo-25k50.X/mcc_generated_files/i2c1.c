@@ -210,8 +210,8 @@ void I2C1_Initialize(void)
     SSP1CON1 = 0x28;
     // SBCDE disabled; BOEN disabled; SCIE disabled; PCIE disabled; DHEN disabled; SDAHT 100ns; AHEN disabled; 
     SSP1CON3 = 0x00;
-    // Baud Rate Generator Value: SSP1ADD 20;   
-    SSP1ADD = 0x14;
+    // Baud Rate Generator Value: SSP1ADD 32;   
+    SSP1ADD = 0x20;
 
    
     // clear the master interrupt flag
